@@ -2,6 +2,11 @@
 
 ## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
 
+## Autores
+
+* [Adexe Sabina](http://alu0100769609.github.io/PL-Page/).
+* [Adrián Calzadilla](http://adcalzadilla.github.io/).
+
 ### Que aprendemos
 
 * HTML básico
@@ -14,7 +19,7 @@
 
 ### Despliegue en github.io
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
+* [http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-pl_asac/](http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-pl_asac/)
 
 ### Diferencias con la versión en la rama `master`
 
@@ -22,15 +27,15 @@
 
         <form id="formulario" onsubmit="calculate();">
 
-  mientras que en la rama `master` estaba fuera 
+  mientras que en la rama `master` estaba fuera
 
 * Además el `<input>` está controlado con el atributo `pattern` HTML5 de `<input>`:
 
         <input id="original"
                placeholder="32F"
                size="50"
-               title = "Escribe un número seguido de una de las letras 'F' o 'C'"
-               pattern="([-+]?\d+(?:\.\d*)?)\s*([fFcC])"
+               title = "Escriba un número seguido de las palabras 'Farenheit' o 'Celsius' o cualquiera de sus abreviaturas."
+               pattern="^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+(?:\.\d*)?)?)\s*([fF](?:[aA](?:[rR](?:[eE](?:[nN](?:[hH](?:[eE](?:[iI](?:[tT])?)?)?)?)?)?)?)?|[cC](?:[eE](?:[lL](?:[sS](?:[iI](?:[uU](?:[sS])?)?)?)?)?)?)\s*$"
         />
 
 * El fichero `pattern.html` tiene ejemplos de como usar el atributo `pattern`
