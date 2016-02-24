@@ -46,12 +46,12 @@ table {
   margin: auto;
   margin-top: 5%;
   border: 2px solid black;
-  padding: 2%;
   box-shadow: 10px 10px 50px  11px #000;
   background: linear-gradient(#b0c4de , #3c6090);
 }
 
 th, td {
+   padding: 0.8%;
    vertical-align: top;
    text-align: right;
    font-size:large;
