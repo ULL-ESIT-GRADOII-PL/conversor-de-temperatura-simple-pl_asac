@@ -20,10 +20,36 @@ body
 
 h1 {
     font-weight: normal;
-    font-family: "Brush Script MT", cursive;
+    font-family: "Bitstream Vera Sans Mono";
     background: #3C5681;
+    background: linear-gradient(#b0c4de , #3C5681);
     padding: 5px 15px;
-    color: white;
+    color: black;
     display:inline-block;
-    border-radius: 10px 10px 10px 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+#menu {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
+
+#menu ul {
+  margin: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin-top: 1%;
+  margin-right: 5%;
+}
+
+#menu a {
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: white;
 }
