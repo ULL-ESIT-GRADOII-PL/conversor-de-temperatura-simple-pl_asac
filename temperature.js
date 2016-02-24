@@ -19,8 +19,10 @@ function calculate() {
       result = result.toFixed(1)+" Celsius"
     }
     converted.innerHTML = result;
+    document.getElementById("converted").style.color = "#0000b3";
   }
   else {
     converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
+    document.getElementById("converted").style.color = "red";
   }
 }
